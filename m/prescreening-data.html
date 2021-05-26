@@ -1,0 +1,24 @@
+<div id=D__ID>
+    <div>
+            VmInclude:__COMPONENT__/g/grid.01.html
+        </div>
+    <script>
+        function F__ID(){
+            //-------------------------------------
+            VmInclude:__COMPONENT__/g/grid.01.js       
+            //-------------------------------------
+            $('#title__ID').text('Pre Screening');            
+            //-------------------------------------
+            var fields="Record_ID|UID";
+            fields+=",first_name,last_name,email,phone";
+            fields+=",age,fluent,alzheimer,liver,pulmonary,sedatives,mental_health,neurological,head_trauma,stroke,travel,shift_worker,substance_abuse,sleep_disorder,pregnant,visit";
+            fields+=",ISI_1a,ISI_1b,ISI_1c,ISI_2,ISI_3,ISI_4,ISI_5,ISI_1,ISI";
+            fields+=",SB_1,SB_2,SB_3,SB_4,SB_5,SB_6,SB_7,SB_8,SB";
+            m.fields=""+fields+",Submit_date,Submitted_by,_Delete";
+            //-------------------------------------
+        }
+    </script>
+    <style>
+        VmInclude:__COMPONENT__/g/grid.01.css
+    </style>
+</div>
