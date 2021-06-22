@@ -69,64 +69,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm control-group">
-                                <h4>4. Do you currently have severe liver impairment or failure?
-                                </h4>
-                            </div>
-                        </div>
-                        <div class="questiongroup">
-                            <fieldset class="pl-4">
-                                <label class="radiobuttons ">
-                                    <input type="radio" name="liver" value="Y" required>
-                                    <span class="checkmark"></span>Yes</label>
-                                <label class="radiobuttons ">
-                                    <input type="radio" name="liver" value="N">
-                                    <span class="checkmark"></span>No </label>
-                            </fieldset>
-                            <i>If unsure, please select no</i>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm control-group">
-                                <h4>5. Do you currently have acute and/or severe pulmonary insufficiency?
-                                </h4>
-                            </div>
-                        </div>
-                        <div class="questiongroup">
-                            <fieldset class="pl-4">
-                                <label class="radiobuttons ">
-                                    <input type="radio" name="pulmonary" value="Y" required>
-                                    <span class="checkmark"></span>Yes</label>
-                                <label class="radiobuttons ">
-                                    <input type="radio" name="pulmonary" value="N">
-                                    <span class="checkmark"></span>No </label>
-                            </fieldset>
-                            <i>If unsure, please select no</i>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm control-group">
-                                <h4>6. Are you currently regularly taking sedatives, hypnotics and/or other sleep
-                                    affecting medications?
-                                </h4>
-                            </div>
-                        </div>
-                        <div class="questiongroup">
-                            <fieldset class="pl-4">
-                                <label class="radiobuttons ">
-                                    <input type="radio" name="sedatives" value="Y" required>
-                                    <span class="checkmark"></span>Yes</label>
-                                <label class="radiobuttons ">
-                                    <input type="radio" name="sedatives" value="N">
-                                    <span class="checkmark"></span>No </label>
-                            </fieldset>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm control-group">
-                                <h4>7. Do you currently have, or have you previously been diagnosed with a serious
+                                <h4>4. Do you currently have, or have you previously been diagnosed with a serious
                                     mental health disorder other than depression or anxiety (e.g., schizophrenia,
                                     bipolar disorder, post-traumatic stress disorder)?
                                 </h4>
@@ -147,7 +90,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm control-group">
-                                <h4>8. Have you ever been diagnosed with a neurological disorder (e.g., Parkinson’s
+                                <h4>5. Have you ever been diagnosed with a neurological disorder (e.g., Parkinson’s
                                     Disease, epilepsy, multiple sclerosis)?
                                 </h4>
                             </div>
@@ -167,7 +110,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm control-group">
-                                <h4>9. Have you ever suffered a head trauma with a loss of consciousness more than 30
+                                <h4>6. Have you ever suffered a head trauma with a loss of consciousness more than 30
                                     minutes?
                                 </h4>
                             </div>
@@ -187,7 +130,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm control-group">
-                                <h4>10. Have you ever had a stroke or mini stroke?
+                                <h4>7. Have you ever had a stroke or mini stroke?
                                 </h4>
                             </div>
                         </div>
@@ -206,7 +149,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm control-group">
-                                <h4>11. Have you travelled overseas within the last two weeks?
+                                <h4>8. Have you travelled overseas within the last two weeks?
                                 </h4>
                             </div>
                         </div>
@@ -224,7 +167,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm control-group">
-                                <h4>12. Are you currently a shift worker?
+                                <h4>9. Are you currently a shift worker?
                                 </h4>
                             </div>
                         </div>
@@ -242,7 +185,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm control-group">
-                                <h4>13. Do you have a current substance abuse or a history of substance abuse (alcohol
+                                <h4>10. Do you have a current substance abuse or a history of substance abuse (alcohol
                                     and/or other illicit substances)?
                                 </h4>
                             </div>
@@ -262,7 +205,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm control-group">
-                                <h4>14. Do you have a current diagnosis of restless leg syndrome, narcolepsy or REM
+                                <h4>11. Do you have a current diagnosis of restless leg syndrome, narcolepsy or REM
                                     behaviour sleep disorder?
                                 </h4>
                             </div>
@@ -282,7 +225,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm control-group">
-                                <h4>15. Are you currently pregnant?
+                                <h4>12. Are you currently pregnant?
                                 </h4>
                             </div>
                         </div>
@@ -300,7 +243,7 @@
                     <div class="form-group">
                         <div class="row">
                             <div class="col-sm control-group">
-                                <h4>16. Are you able and willing to complete a screening visit and 2 overnight sleep
+                                <h4>13. Are you able and willing to complete a screening visit and 2 overnight sleep
                                     studies (weeknights only) at the Woolcock Institute of Medical Research in Glebe,
                                     Sydney?
                                 </h4>
@@ -802,9 +745,6 @@
                     if ($("input[name='age']:checked").val() == 'N' ||
                         $("input[name='fluent']:checked").val() == 'N' ||
                         $("input[name='alzheimer']:checked").val() == 'Y' ||
-                        $("input[name='liver']:checked").val() == 'Y' ||
-                        $("input[name='pulmonary']:checked").val() == 'Y' ||
-                        $("input[name='sedatives']:checked").val() == 'Y' ||
                         $("input[name='mental_health']:checked").val() == 'Y' ||
                         $("input[name='neurological']:checked").val() == 'Y' ||
                         $("input[name='head_trauma']:checked").val() == 'Y' ||
